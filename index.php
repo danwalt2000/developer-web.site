@@ -8,13 +8,13 @@
 - Виталий.
 -->
 
-<html lang="en">
+<html lang="ru">
     <head>
         <meta property="og:url" content="http://developer-web.site" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Портфолио веб-разработчика и дизайнера" />
         <meta property="og:description" content="Я - веб-дизайнер и разработчик широкого профиля. Специализируюсь на верстке и настройке серверной части веб-приложений и сайтов. Я искренне считаю, что высококлассный веб-дизайн должен быть чистым и простым, и, в то же время, привлекающим внимание пользователя." />
-        <meta property="og:image" content="http://danwalt.000webhostapp.com/content/web-development.png" />
+        <meta property="og:image" content="content/logo.gif" />
          <link rel="icon" href="..." />
         <link href="style/style.css" rel="stylesheet" type="text/css"/>
          
@@ -78,7 +78,7 @@
                 
                 <a href='index.php'>
                 <div id="logoImage">
-                    <img src="http://danwalt.000webhostapp.com/content/web-development1.png" alt="Logo"/>
+                    <img src="content/logo.gif" alt="Logo"/>
                 </div>
                     </a>
                   
@@ -738,7 +738,7 @@
      
 <article class="published post home">
 <a href="blog-post.php?articleId=48">
-<img class="attachment-post-thumbnail" width="260" height="260" alt="Design That Understands The Brand" src="../Images/brand.jpg">
+<img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простую игру на чистом Javascript" src="../Images/brand.jpg">
 </a>
 <header class="entry-header">
 <p class="entry-meta">
@@ -761,7 +761,7 @@
          
 <article class="published post home">
 <a href="blog-post.php?articleId=47">
-<img class="attachment-post-thumbnail" width="260" height="260" alt="Mobile App Development Using Web Tech" src="../Images/mobileApp.jpg">
+<img class="attachment-post-thumbnail" width="260" height="260" alt="Отличие различных инструментов программирования" src="../Images/mobileApp.jpg">
 </a>
 <header class="entry-header">
 <p class="entry-meta">
@@ -782,7 +782,7 @@
          
 <article class="published post home">
 <a href="blog-post.php?articleId=45">
-<img class="attachment-post-thumbnail" width="260" height="260" alt="Finding Freelance Time" src="Images/blogMy.jpg">
+<img class="attachment-post-thumbnail" width="260" height="260" alt="Интерактивный дизайн" src="Images/blogMy.jpg">
 </a>
 <header class="entry-header">
 <p class="entry-meta">
