@@ -1,7 +1,4 @@
-/* 
- * Owen O'Donnell
- * Home page javascript file.
- */
+
 
  var postCircleAnimation = false;
  var postDesignDevAnimation = false;
