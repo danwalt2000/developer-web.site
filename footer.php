@@ -86,11 +86,11 @@
                           <h3 class="text-align-center">
                             <a href="index.php">ГЛАВНАЯ &nbsp;  </a>
                             <a href="about.html">ОБО МНЕ &nbsp;</a>
-                            <a href="portfolio.html">МОИ РАБОТЫ &nbsp;</a>
+                            <a href="portfolio.php">МОИ РАБОТЫ &nbsp;</a>
                             <a href="experience.html">ОПЫТ &nbsp;</a>
                             <a href="blog-articles.php">БЛОГ &nbsp;</a>                            
                         </h3>
-                        <p class="text-align-center copyright">© 2020 Портфолио веб-разработчика. Копирование без разрешения запрещено.</p>
+                        <p class="text-align-center copyright">© 2020 Портфолио веб-разработчика.</p>
                       </div>
                      </div>
                    <!--конец блока 2 футера -->
