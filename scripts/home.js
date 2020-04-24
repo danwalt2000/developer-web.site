@@ -5,30 +5,30 @@
  
  
  $.fn.inView = function(){
-    //Window Object
+    //Объект Window 
     var win = $(window);
-    //Object to Check
+    //Проверяемый объект
     obj = $(this);
-    //the top Scroll Position in the page
+    //скроллинг
     var scrollPosition = win.scrollTop();
-    //the end of the visible area in the page, starting from the scroll position
+    //конец видимой области
     var visibleArea = win.scrollTop() + win.height();
-    //the end of the object to check
+    //конец проверяемого объекта
     if (obj.length) {
     var objEndPos = (obj.offset().top + obj.outerHeight());
      return(visibleArea >= objEndPos && scrollPosition <= objEndPos ? true : false)
     }
 };
 
-// Check if it's time to start the animation.
+// Проверка время ли начинать анимацию
 function checkAnimation() {
     for (var i=1; i<=5; i++){
         var $elem = $('.hrHomePage' + i);
-    // If the animation has already been started
+    // Если анимация уже стартовала
     if ($elem !== null){
          if ($elem.hasClass('hrAnimation')) continue;
             if ($($elem).inView()) {
-        // Start the animation
+        // Старт анимации
         $elem.addClass('hrAnimation'); 
         $elem.width('100%');
     }
@@ -38,19 +38,19 @@ function checkAnimation() {
     }
     }
     
-    // Check if it's time to start the animation.
+    // Проверка старта анимации.
 function checkCircleAnimation() {
-        var $elem = $('.skillSpan');
-        if($elem !== null){
-             // If the animation has already been started
+    var $elem = $('.skillSpan');
+    if($elem !== null){
+             // Если анимация уже стартовала
         if ($($elem).inView() && !postCircleAnimation) {
-        // Start the animation
-        AnimateCircles();
-        postCircleAnimation = true;
+          // Старт анимации
+          AnimateCircles();
+          postCircleAnimation = true;
         }
-        }
-   
     }
+   
+}
     
     function checkDesignDevAnimations(){
             var $elem = $('.servicesParagraph');
@@ -196,7 +196,7 @@ function checkCircleAnimation() {
             }
         });
         
-        
+        //скрытый ряд кругов
          $('#circle7').animate({
             fill: "#223fa3",
             stroke: "#000",
@@ -271,9 +271,9 @@ function checkCircleAnimation() {
                 $('#text12').text(Math.round(progress * 70));
             }
         });
+        // конец скрытого ряда кругов
         
-        
-        // Smaller circles
+        // Маленькие круги
         
         $('#circle13').animate({
             fill: "#223fa3",
@@ -430,7 +430,7 @@ function checkCircleAnimation() {
         
             }
 
-// Capture scroll events
+// Ловим событие прокрутки
 $(window).scroll(function(){
     checkAnimation();
     checkDesignDevAnimations();
