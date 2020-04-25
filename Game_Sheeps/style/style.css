@@ -1,0 +1,53 @@
+        #wolf {
+            position: absolute;
+            top: 41px;
+            left: 234px;
+            height: 35px;
+            width: 35px;
+        }
+
+        .sheep {
+            position: absolute;
+            height: 35px;
+            width: 35px;
+            top: 490px;
+        }
+
+        #sheep_0 {
+            left: 42px;
+        }
+
+        #sheep_1 {
+            left: 170px;
+        }
+
+        #sheep_2 {
+            left: 299px;
+        }
+
+        #sheep_3 {
+            left: 427px;
+        }
+
+        .move {
+            height: 35px;
+            width: 35px;
+            background: lightgreen;
+            border-radius: 100%;
+        }
+
+        .rules, #movingHeadline {
+            position: absolute;
+        }
+
+        .rules {
+            top: 0px;
+            left: 620px;
+            width: 200px;
+        }
+
+        #movingHeadline {
+            top: 300px;
+            left: 620px;
+            width: 180px;
+        }

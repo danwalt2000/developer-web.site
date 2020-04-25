@@ -21,7 +21,7 @@
         </div>
     </div>
 
-
+    </div>
 
     </header>
     <!-- конец первого раздела-->
@@ -57,7 +57,7 @@
                             <div class="splitColumnsMy">
 
                                 <svg id="Layer_1" class="icon icon-design large-icon" xml:space="preserve" enable-background="new 0 0 100 100" viewBox="0 0 100 100" height="100px" width="100px" y="0px" x="0px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                                    <path id="development1" d="M35.845,61.275l-10.72-5.09c-1.209-0.572-1.94-1.463-1.94-2.703v-0.318c0-1.24,0.731-2.131,1.94-2.704l10.72-5.089 c0.381-0.191,0.731-0.318,1.177-0.318c1.018-0.031,1.94,0.859,1.94,2.004c0,0.922-0.509,1.559-1.336,1.94l-9.606,4.294l9.606,4.295 c0.827,0.381,1.336,1.113,1.336,2.004c0,1.177-0.922,2.004-2.1,1.972C36.513,61.562,36.163,61.435,35.845,61.275z" stroke="#333333" stroke-width="1" ></path>
+                                    <path id="development1" d="M35.845,61.275l-10.72-5.09c-1.209-0.572-1.94-1.463-1.94-2.703v-0.318c0-1.24,0.731-2.131,1.94-2.704l10.72-5.089 c0.381-0.191,0.731-0.318,1.177-0.318c1.018-0.031,1.94,0.859,1.94,2.004c0,0.922-0.509,1.559-1.336,1.94l-9.606,4.294l9.606,4.295 c0.827,0.381,1.336,1.113,1.336,2.004c0,1.177-0.922,2.004-2.1,1.972C36.513,61.562,36.163,61.435,35.845,61.275z" stroke="#333333" stroke-width="1" />
                                     <path id="development2" d="M41.889,66.047l12.438-25.988c0.35-0.731,0.922-1.113,1.686-1.113c1.018,0,1.876,0.859,1.876,1.813 c0,0.35-0.127,0.7-0.222,0.923L45.229,67.669c-0.35,0.731-0.922,1.113-1.686,1.113c-1.018,0-1.876-0.858-1.876-1.813 C41.667,66.619,41.793,66.27,41.889,66.047z" stroke="#333333" stroke-width="1" />
                                     <path id="development3" d="M64.155,45.371l10.72,5.089c1.208,0.573,1.94,1.464,1.94,2.704v0.318c0,1.24-0.731,2.131-1.94,2.703l-10.72,5.09 c-0.381,0.191-0.731,0.318-1.177,0.318c-1.018,0.031-1.94-0.859-1.94-2.004c0-0.923,0.509-1.559,1.336-1.94l9.606-4.295 l-9.606-4.294c-0.827-0.381-1.336-1.113-1.336-2.004c0-1.177,0.923-2.004,2.1-1.973C63.487,45.084,63.837,45.212,64.155,45.371z" stroke="#333333" stroke-width="1" />
                                     <path id="development4" d="M92.5,21c0-1.657-1.343-3-3-3h-80c-1.657,0-3,1.343-3,3v59c0,1.657,1.343,3,3,3h80c1.657,0,3-1.343,3-3V21z M26,20.833 c1.196,0,2.167,0.97,2.167,2.167s-0.97,2.167-2.167,2.167s-2.167-0.97-2.167-2.167S24.804,20.833,26,20.833z M20,20.833 c1.196,0,2.167,0.97,2.167,2.167s-0.97,2.167-2.167,2.167s-2.167-0.97-2.167-2.167S18.804,20.833,20,20.833z M14,20.833 c1.196,0,2.167,0.97,2.167,2.167s-0.97,2.167-2.167,2.167s-2.167-0.97-2.167-2.167S12.804,20.833,14,20.833z M88.5,79h-78V29h78V79z " stroke="#333333" stroke-width="1" />
@@ -106,7 +106,7 @@
                                 <div>
                                     <section class="portfolio-block">
                                         <div class="portfolio-image-block">
-                                            <a class="portfolio-image-block__link" href="provence.php">
+                                            <a class="portfolio-image-block__link" href="provence.html">
                                                 <img src="content/provence.png" alt="Provence" class="projectImage" style="left:0;position: relative;top: 0;" />
                                             </a>
                                         </div>
@@ -115,7 +115,7 @@
                                                 <div class="portfolio-content-block__text">
                                                     <div class="portfolio-content-block__sub-title">Сайт салона штор</div>
                                                     <div class="portfolio-content-block__title">Прованс</div>
-                                                    <a class="portfolio-content-block__link" title="Прованс" href="provence.php">Подробнее</a>
+                                                    <a class="portfolio-content-block__link" title="Прованс" href="provence.html">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,7 +129,7 @@
                                 <div>
                                     <section class="portfolio-block">
                                         <div class="portfolio-image-block">
-                                            <a class="portfolio-image-block__link" href="beacon.php">
+                                            <a class="portfolio-image-block__link" href="beacon.html">
                                                 <img src="content/beacon.jpg" alt="Beacon" class="projectImage" style="left:0;position: relative;top: 0;" />
                                             </a>
                                         </div>
@@ -138,7 +138,7 @@
                                                 <div class="portfolio-content-block__text">
                                                     <div class="portfolio-content-block__sub-title">Мини-сайт</div>
                                                     <div class="portfolio-content-block__title">Beacon</div>
-                                                    <a class="portfolio-content-block__link" title="Prima Fitness" href="beacon.php">Подробнее</a>
+                                                    <a class="portfolio-content-block__link" title="Prima Fitness" href="beacon.html">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -152,7 +152,7 @@
                                 <div>
                                     <section class="portfolio-block">
                                         <div class="portfolio-image-block">
-                                            <a class="portfolio-image-block__link" href="My-port.php">
+                                            <a class="portfolio-image-block__link" href="My-port.html">
                                                 <img src=" content/portfolio.jpg" alt="" class="projectImage" style="left:0;position: relative;top: 0;" />
                                             </a>
                                         </div>
@@ -161,7 +161,7 @@
                                                 <div class="portfolio-content-block__text">
                                                     <div class="portfolio-content-block__sub-title">Вебсайт</div>
                                                     <div class="portfolio-content-block__title">Портфолио</div>
-                                                    <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="My-port.php">Подробнее</a>
+                                                    <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="Myod-website.html">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -176,7 +176,6 @@
                             <div style="text-align:center">
                                 <a href="portfolio.php" class="buttonBlockElement">Больше проектов</a>
                             </div>
-                            </div>
                         </div>
                     </div>
 
@@ -188,12 +187,12 @@
                             <hr class="hrHomePage5">
                         </div>
 
-                        <h1 class="introBlockHeading" style="padding-bottom:0;">Последние статьи</h1>
+                        <h1 class="introBlockHeading" style="padding-bottom:0px;">Последние статьи</h1>
                         <div class="blog-posts clearfix">
 
                             <article class="published post home">
                                 <a href="blog-post.php?articleId=48">
-                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простую игру на чистом Javascript" src="/content/15.jpg">
+                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простую игру на чистом Javascript" src="../Images/brand.jpg">
                                 </a>
                                 <header class="entry-header">
                                     <p class="entry-meta">

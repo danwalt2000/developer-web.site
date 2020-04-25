@@ -85,10 +85,10 @@
                         <div style="cursor:auto;outline:medium none">
                           <h3 class="text-align-center">
                             <a href="index.php">ГЛАВНАЯ &nbsp;  </a>
-                            <a href="#page">ОБО МНЕ &nbsp;</a>
+                            <a href="about.html">ОБО МНЕ &nbsp;</a>
                             <a href="portfolio.php">МОИ РАБОТЫ &nbsp;</a>
                             <a href="experience.html">ОПЫТ &nbsp;</a>
-                            <a href="blog.php">БЛОГ &nbsp;</a>
+                            <a href="blog-articles.php">БЛОГ &nbsp;</a>                            
                         </h3>
                         <p class="text-align-center copyright">© 2020 Портфолио веб-разработчика.</p>
                       </div>
