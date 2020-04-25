@@ -3,12 +3,8 @@ $curPage = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], "/")
 
 ?>
 
-<body>
 
-    <div id="siteWrapper" class="siteWrap">
 
-        <header class="site-header" style="height:100vh !important;">
-            <div class="overlay" style="width:100%;height:100vh !important">
                 <div class="logoDiv">
 
                     <a href='index.php'>

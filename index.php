@@ -1,5 +1,10 @@
 <?php include "./head.php"; ?>
+    <body>
 
+        <div id="siteWrapper" class="siteWrap">
+
+            <header class="site-header" style="height:100vh !important;">
+                <div class="overlay" style="width:100%;height:100vh !important">
 <?php include "./header.php"; ?>
 
     <div class="headingIntro homeFV">
@@ -17,7 +22,7 @@
     <div class="scollerContainer">
         <div class="scrollIndicator">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 34">
-                <path class="st0" d="M11,33L11,33C5.5,33,1,28.5,1,23V11C1,5.5,5.5,1,11,1h0c5.5,0,10,4.5,10,10v12C21,28.5,16.5,33,11,33z">
+                <path class="st0" d="M11,33L11,33C5.5,33,1,28.5,1,23V11C1,5.5,5.5,1,11,1h0c5.5,0,10,4.5,10,10v12C21,28.5,16.5,33,11,33z"></path>
             </svg>
             <div></div>
         </div>
@@ -154,7 +159,7 @@
                                 <div>
                                     <section class="portfolio-block">
                                         <div class="portfolio-image-block">
-                                            <a class="portfolio-image-block__link" href="My-port.php">
+                                            <a class="portfolio-image-block__link" href="my-port.php">
                                                 <img src=" content/portfolio.jpg" alt="" class="projectImage" style="left:0;position: relative;top: 0;" />
                                             </a>
                                         </div>
@@ -163,7 +168,7 @@
                                                 <div class="portfolio-content-block__text">
                                                     <div class="portfolio-content-block__sub-title">Вебсайт</div>
                                                     <div class="portfolio-content-block__title">Портфолио</div>
-                                                    <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="My-port.php">Подробнее</a>
+                                                    <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="my-port.php">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -194,7 +199,7 @@
                         <div class="blog-posts clearfix">
 
                             <article class="published post home">
-                                <a href="blog.php">
+                                <a href="15-article.php">
                                     <img class="attachment-post-thumbnail" width="260" height="260" alt="Пишем игру на чистом Javascript" src="/content/15.jpg">
                                 </a>
                                 <header class="entry-header">
@@ -206,8 +211,8 @@
 
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Пишем игру на чистом Javascript</a></h2>
-                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="15-article.php">Пишем игру на чистом Javascript</a></h2>
+                                    <a class="more-link go-right" href="15.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
 
