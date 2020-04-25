@@ -21,5 +21,12 @@
     <button class="refresh" onclick="window.location.reload();">Сброс</button>
 </div>
 
+<?php
+$curPage = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], "/") + 1);
+
+echo ($curPage);
+
+?>
+
 </body>
 </html>

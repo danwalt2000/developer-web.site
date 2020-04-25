@@ -1,3 +1,5 @@
+<?php include "./head.php"; ?>
+
 <?php include "./header.php"; ?>
 
     <div class="headingIntro homeFV">
@@ -138,7 +140,7 @@
                                                 <div class="portfolio-content-block__text">
                                                     <div class="portfolio-content-block__sub-title">Мини-сайт</div>
                                                     <div class="portfolio-content-block__title">Beacon</div>
-                                                    <a class="portfolio-content-block__link" title="Prima Fitness" href="beacon.php">Подробнее</a>
+                                                    <a class="portfolio-content-block__link" title="Beacon" href="beacon.php">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,8 +194,8 @@
                         <div class="blog-posts clearfix">
 
                             <article class="published post home">
-                                <a href="blog-post.php?articleId=48">
-                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простую игру на чистом Javascript" src="/content/15.jpg">
+                                <a href="blog.php">
+                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Пишем игру на чистом Javascript" src="/content/15.jpg">
                                 </a>
                                 <header class="entry-header">
                                     <p class="entry-meta">
@@ -201,11 +203,11 @@
                                         <time itemprop="datePublished">19.04.2020 в 18:36</time>
 
                                         <span class="entry-comments-link">
-<a href="blog-post.php?articleId=48#comments">4 Comments</a>
+
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog-post.php?articleId=48">Создаем простую игру на чистом Javascript</a></h2>
-                                    <a class="more-link go-right" href="blog-post.php?articleId=48">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Пишем игру на чистом Javascript</a></h2>
+                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
 
@@ -213,8 +215,8 @@
                             </article>
 
                             <article class="published post home">
-                                <a href="blog-post.php?articleId=47">
-                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Отличие различных инструментов программирования" src="../Images/mobileApp.jpg">
+                                <a href="blog.php">
+                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простой ИИ" src="/content/ai.jpg">
                                 </a>
                                 <header class="entry-header">
                                     <p class="entry-meta">
@@ -222,19 +224,19 @@
                                         <time itemprop="datePublished">20.04.2020 в 10:25</time>
 
                                         <span class="entry-comments-link">
-<a href="blog-post.php?articleId=47#comments">4 Comments</a>
+
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog-post.php?articleId=47">Отличие различных инструментов программирования</a></h2>
-                                    <a class="more-link go-right" href="blog-post.php?articleId=47">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Создаем простой искусственный интеллект</a></h2>
+                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
                                 <footer class="entry-footer"></footer>
                             </article>
 
                             <article class="published post home">
-                                <a href="blog-post.php?articleId=45">
-                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Интерактивный дизайн" src="Images/blogMy.jpg">
+                                <a href="blog.php">
+                                    <img class="attachment-post-thumbnail" width="260" height="260" alt="Интерактивный дизайн" src="content/inter-design.jpg">
                                 </a>
                                 <header class="entry-header">
                                     <p class="entry-meta">
@@ -242,11 +244,11 @@
                                         <time itemprop="datePublished">21.04.2020 в 15:08</time>
 
                                         <span class="entry-comments-link">
-<a href="blog-post.php?articleId=45#comments">8 Comments</a>
+
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog-post.php?articleId=45">Интерактивный дизайн</a></h2>
-                                    <a class="more-link go-right" href="blog-post.php?articleId=45">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Интерактивный дизайн</a></h2>
+                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
                                 <footer class="entry-footer"></footer>
@@ -258,7 +260,7 @@
                         <div class="buttonBlock">
                             <div>
                                 <div style="text-align:center">
-                                    <a href="blog-articles.php" class="buttonBlockElement">Больше статей</a>
+                                    <a href="blog.php" class="buttonBlockElement">Больше статей</a>
                                 </div>
                             </div>
                         </div>
@@ -269,5 +271,6 @@
             </div>
         </div>
     </main>
+
 
     <?php include "./footer.php"; ?>

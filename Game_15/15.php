@@ -362,7 +362,16 @@
     document.onkeyup = changeItem;
 </script>
 
+<div>
+    <?php
+    $curPage = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], "/") + 1);
+    if($curPage == "15.php"){
+        $backGreen = "background-color: green";
+    }
+    ?>
 
+</div>
+<div style="<?php $backGreen ?>"><p>This div should change color <?php echo $backGreen; ?> </p> </div>
 </body>
 
 </html>
