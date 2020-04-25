@@ -84,18 +84,14 @@
 
                     <style>
                         .wrap15{
-
                             width: 100%;
                             height: 100%;
                         }
                         td {
                             border: lightgrey solid;
                             background: url('content/woodTd.jpg');
+                        }
 
-                        }
-                        td #empty{
-                            background: none;
-                        }
                         .table-bordered {
                             border: black;
                             padding: 5px;
@@ -123,39 +119,69 @@
                             cursor: pointer;
                         }
 
-                        .table-active {
-                            background: lightgrey;
-                        }
-
-                        .instruction {
-                            position: relative;
-                            width: 150px;
-                            left: 30px;
-                            top: 120px;
-                        }
-
                         .count {
+                            color: floralwhite;
                             width: 100%;
                             position: relative;
                             top: 50px;
                             left: 30px;
-                            background: lightgrey;
+                            background: url("content/woodBack.png");
                             text-align: center;
                             font-size: 20px;
-                        }
-
-                        .records {
-                            position: absolute;
-                            top: 50px;
-                            left: 800px;
-                            width: 150px;
-
                         }
 
                         .refresh {
                             margin-left: auto;
                             margin-right: auto;
                         }
+
+
+                        .refresh a {
+                            position: relative;
+                            display: inline-block;
+                            padding: 1.2em 2em;
+                            text-decoration: none;
+                            text-align: center;
+                            cursor: pointer;
+                            user-select: none;
+                            color: white;
+                        }
+                        .refresh a::before {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                            background: linear-gradient(135deg, #794d07, #f1ce93);
+                            border-radius: 4px;
+                            transition: box-shadow 0.5s ease, transform 0.2s ease;
+                            will-change: transform;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                            transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+                        }
+                        .refresh a:hover::before {
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                        }
+                        .refresh a::after {
+                            position: relative;
+                            display: inline-block;
+                            content: attr(data-title);
+                            transition: transform 0.2s ease;
+                            font-weight: bold;
+                            letter-spacing: 0.01em;
+                            will-change: transform;
+                            transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+                        }
+                        body .refresh {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 70px;
+                            transform-style: preserve-3d;
+                            transform: perspective(200px);
+                        }
+
                     </style>
                  <div class="wrap15">
                     <table class="table-bordered" onselectstart="return false" onmousedown="return false">
@@ -188,7 +214,9 @@
                         </tbody>
 
                     </table>
-                     <div><button class="refresh" onclick="window.location.reload();">Сброс</button></div>
+                     <div class="refresh">
+                         <a onclick="window.location.reload();" id="asBut" data-title="Сброс"></a>
+                     </div>
                     <div class="count"><p>Счетчик ходов:
                         <div id="counter">0</div>
                         </p></div>
@@ -285,7 +313,7 @@
                     function shuffle(arr) {
                         var newArr = [];
                         arr.push(0);
-                        for (i = 0; i < 2000; i++) {
+                        for (i = 0; i < 1; i++) {
                             var rand = Math.ceil(Math.random() * 4);
                             var idx = arr.indexOf(0);
                             //сюда сохраняется число перед заменой на ноль
@@ -431,16 +459,17 @@
                             var newElement = document.createElement('div');
                             newElement.innerHTML = "<h1>Вы выиграли!</h1><p>Общее количество ходов: " + c + "</p>";
                             newElement.id = "win";
+                            newElement.style.zIndex = "999";
                             var ch = document.getElementById("win");
 
                             //этот код в старых браузерах работать не будет
                             if (!ch) {
                                 document.body.appendChild(newElement);
-                                winModal.insertBefore(newElement, winName);
+                                winModal.insertBefore(newElement, insertHere);
                                 winSub.value = c;
                             }
                             winModal.showModal();
-                            var winName = document.getElementById('winName');
+                            var insertHere = document.querySelector('.refresh');
                             document.onclick = null;
                         }
                     }
@@ -450,5 +479,49 @@
                 </script>
 
                 <!-- конец описания проекта -->
+
+                <script>
+                    const docStyle = document.documentElement.style
+                    const aElem = document.querySelector('#asBut')
+                    const boundingClientRect = aElem.getBoundingClientRect()
+
+                    aElem.onmousemove = function(e) {
+
+                        const x = e.clientX - boundingClientRect.left
+                        const y = e.clientY - boundingClientRect.top
+
+                        const xc = boundingClientRect.width/2
+                        const yc = boundingClientRect.height/2
+
+                        const dx = x - xc
+                        const dy = y - yc
+
+                        docStyle.setProperty('--rx', `${ dy/-2.5 }deg`)
+                        docStyle.setProperty('--ry', `${ dx/3 }deg`)
+
+                    }
+
+                    aElem.onmouseleave = function(e) {
+
+                        docStyle.setProperty('--ty', '0')
+                        docStyle.setProperty('--rx', '0')
+                        docStyle.setProperty('--ry', '0')
+
+                    }
+
+                    aElem.onmousedown = function(e) {
+
+                        docStyle.setProperty('--tz', '-25px')
+
+                    }
+
+                    document.body.onmouseup = function(e) {
+
+                        docStyle.setProperty('--tz', '-12px')
+
+                    }
+                 </script>
+
+    </main>
 
 <?php include "./footer.php"; ?>
