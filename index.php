@@ -32,7 +32,7 @@
 
     </header>
     <!-- конец первого раздела-->
-
+    <!-- Начало "промо" раздела -->
     <main id="page">
         <div id="content">
             <div class="page-content">

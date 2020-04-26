@@ -73,7 +73,7 @@ $curPage = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], "/")
                         </li>
 
                         <li class="a-nav-item">
-                            <a class="menuBlockLink" href="#page">
+                            <a class="menuBlockLink" href="about.php">
                                 <div class="menuBlock">
                                     <div class="linkSummary"><span class="counterSpan">02.</span>
                                         <header class="MenuHeader">Обо мне</header>

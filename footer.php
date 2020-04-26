@@ -79,7 +79,7 @@
                         <div style="cursor:auto;outline:medium none">
                           <h3 class="text-align-center">
                             <a href="index.php">ГЛАВНАЯ &nbsp;  </a>
-                            <a href="#page">ОБО МНЕ &nbsp;</a>
+                            <a href="about.php">ОБО МНЕ &nbsp;</a>
                             <a href="portfolio.php">МОИ РАБОТЫ &nbsp;</a>
                             <a href="experience.php">ОПЫТ &nbsp;</a>
                             <a href="blog.php">БЛОГ &nbsp;</a>
