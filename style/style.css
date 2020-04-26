@@ -4527,7 +4527,7 @@ textarea:focus {
 }
 
 #resources::before {
-    background-image: url(../Images/bg-notebook.png);
+    background-image: url(../content/bg-notebook.png);
     height: 877px;
     right: -420px;
     top: -420px;
@@ -4535,7 +4535,7 @@ textarea:focus {
 }
 
 #resources::after {
-    background-image: url(../Images/bg-pen.png);
+    background-image: url(../content/bg-pen.png);
     bottom: -120px;
     height: 340px;
     right: 50px;
@@ -5099,4 +5099,10 @@ Scroll indicator css .scrollIndicator::after {
 .textParagraphBlog img {
     border: 1px solid #e6e6e6;
     width: 100%
+}
+
+.widget h1, .widget h3, .widget p{
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    padding-top: 40px;
 }

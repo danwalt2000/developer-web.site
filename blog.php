@@ -47,7 +47,7 @@
     <div class="blog-posts clearfix">
 
         <article class="published post home">
-            <a href="blog.php">
+            <a href="15.php">
                 <img class="attachment-post-thumbnail" width="260" height="260" alt="Пишем игру на чистом Javascript" src="/content/15.jpg">
             </a>
             <header class="entry-header">
@@ -59,8 +59,8 @@
 
 </span>
                 </p>
-                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Пишем игру на чистом Javascript</a></h2>
-                <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="15.php">Пишем игру на чистом Javascript</a></h2>
+                <a class="more-link go-right" href="15.php">Продолжить чтение?</a>
             </header>
             <div class="entry-content" itemprop="text"></div>
 
@@ -68,7 +68,7 @@
         </article>
 
         <article class="published post home">
-            <a href="blog.php">
+            <a href="ai.php">
                 <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простой ИИ" src="/content/ai.jpg">
             </a>
             <header class="entry-header">
@@ -80,15 +80,15 @@
 
 </span>
                 </p>
-                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Создаем простой искусственный интеллект</a></h2>
-                <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="ai.php">Создаем простой искусственный интеллект</a></h2>
+                <a class="more-link go-right" href="ai.php">Продолжить чтение?</a>
             </header>
             <div class="entry-content" itemprop="text"></div>
             <footer class="entry-footer"></footer>
         </article>
 
         <article class="published post home">
-            <a href="blog.php">
+            <a href="interact.php">
                 <img class="attachment-post-thumbnail" width="260" height="260" alt="Интерактивный дизайн" src="content/inter-design.jpg">
             </a>
             <header class="entry-header">
@@ -100,8 +100,8 @@
 
 </span>
                 </p>
-                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Интерактивный дизайн</a></h2>
-                <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="interact.php">Интерактивный дизайн</a></h2>
+                <a class="more-link go-right" href="interact.php">Продолжить чтение?</a>
             </header>
             <div class="entry-content" itemprop="text"></div>
             <footer class="entry-footer"></footer>

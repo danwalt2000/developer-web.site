@@ -16,7 +16,7 @@ function getC(){
 function shuffle(arr){
     var newArr = [];
     arr.push(0);
-    for(i = 0; i < 1; i++){
+    for(i = 0; i < 2000; i++){
         var rand = Math.ceil(Math.random()* 4);
         var idx = arr.indexOf(0);
         //сюда сохраняется число перед заменой на ноль

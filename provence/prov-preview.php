@@ -528,7 +528,7 @@
 </style>
 <div class="preview">
     <img src="css/images/back-to-home.png"  href="../index.php" />
-    <a href="../index.php">Вернуться назад</a>
+    <a href="../portfolio.php">Вернуться назад</a>
     <h1 id="prev-h1">Это превью сайта. Все ссылки ведут на главную страницу.</h1>
 </div>
     <div id="page" class="site">
@@ -726,6 +726,10 @@
                     <div class="footer-left">
                         <h1>Соцсети</h1>
                         <ul>
+                            <li>
+                                <a href="#" class="icon-10 facebook" title="Facebook"><svg style="width:30px; fill: white;" viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z" /></svg><!--[if lt IE 9]><em>Facebook</em><![endif]--></a></li>
+
+                            </li>
 
                             <li>
                             <li>
@@ -734,10 +738,6 @@
                             </li>
 
                             <li>
-                            <li>
-                                <a href="#" class="icon-10 facebook" title="Facebook"><svg style="width:30px; fill: white;" viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z" /></svg><!--[if lt IE 9]><em>Facebook</em><![endif]--></a></li>
-
-                            </li>
 
                             <li>
                             <li>

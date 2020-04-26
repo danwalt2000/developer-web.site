@@ -220,7 +220,7 @@
                             </article>
 
                             <article class="published post home">
-                                <a href="blog.php">
+                                <a href="ai.php">
                                     <img class="attachment-post-thumbnail" width="260" height="260" alt="Создаем простой ИИ" src="/content/ai.jpg">
                                 </a>
                                 <header class="entry-header">
@@ -232,8 +232,8 @@
 
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Создаем простой искусственный интеллект</a></h2>
-                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="ai.php">Создаем простой искусственный интеллект</a></h2>
+                                    <a class="more-link go-right" href="ai.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
                                 <footer class="entry-footer"></footer>
@@ -252,8 +252,8 @@
 
 </span>
                                     </p>
-                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="blog.php">Интерактивный дизайн</a></h2>
-                                    <a class="more-link go-right" href="blog.php">Продолжить чтение?</a>
+                                    <h2 class="entry-title" itemprop="headline"><a rel="bookmark" href="interact.php">Интерактивный дизайн</a></h2>
+                                    <a class="more-link go-right" href="interact.php">Продолжить чтение?</a>
                                 </header>
                                 <div class="entry-content" itemprop="text"></div>
                                 <footer class="entry-footer"></footer>
@@ -265,13 +265,15 @@
                         <div class="buttonBlock">
                             <div>
                                 <div style="text-align:center">
-                                    <a href="blog.php" class="buttonBlockElement">Больше статей</a>
+                                    <a href="interact.php" class="buttonBlockElement">Больше статей</a>
                                 </div>
                             </div>
                         </div>
 
                         <!--  конец раздела блога -->
-
+            </div>
+        </div>
+        </div>
                 </div>
             </div>
         </div>
