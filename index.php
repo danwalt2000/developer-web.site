@@ -98,7 +98,7 @@
 
         <div class="gap-50"></div>
         <div class="container animatezoomin">
-            <img class="img-responsive" src="http://danwalt.000webhostapp.com/content/scheme.png" alt="process">
+            <img class="img-responsive" src="content/scheme.png" alt="process">
         </div>
     </section>
 

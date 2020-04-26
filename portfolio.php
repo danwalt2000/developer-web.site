@@ -83,28 +83,6 @@
                                     </div>
 
 
-                                    <div class="ProjectContentOuter">
-                                        <div class="ProjectContent">
-                                            <div>
-                                                <section class="portfolio-block">
-                                                    <div class="portfolio-image-block">
-                                                        <a class="portfolio-image-block__link" href="/15.php">
-                                                            <img src="content/15-preview.jpg" alt="" class="projectImage" style="left:0;position: relative;top: 0;"/>
-                                                        </a>
-                                                    </div>
-                                                    <div class="portfolio-content-block">
-                                                        <div class="portfolio-content-block__holder">
-                                                            <div class="portfolio-content-block__text">
-                                                                <div class="portfolio-content-block__sub-title">Игра</div>
-                                                                <div class="portfolio-content-block__title">Пятнашки</div>
-                                                                <a class="portfolio-content-block__link" title="Игра 15" href="15.php">Подробнее</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
 
@@ -157,6 +135,28 @@
                                 </div>
 
 
+                                    <div class="ProjectContentOuter">
+                                        <div class="ProjectContent">
+                                            <div>
+                                                <section class="portfolio-block">
+                                                    <div class="portfolio-image-block">
+                                                        <a class="portfolio-image-block__link" href="/15.php">
+                                                            <img src="content/15-preview.jpg" alt="" class="projectImage" style="left:0;position: relative;top: 0;"/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="portfolio-content-block">
+                                                        <div class="portfolio-content-block__holder">
+                                                            <div class="portfolio-content-block__text">
+                                                                <div class="portfolio-content-block__sub-title">Игра</div>
+                                                                <div class="portfolio-content-block__title">Пятнашки</div>
+                                                                <a class="portfolio-content-block__link" title="Игра 15" href="15.php">Подробнее</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
 

@@ -1,6 +1,6 @@
 
 <?php include "./head.php"; ?>
-
+<script src="scripts/game15.js" type="text/javascript" defer></script>
 <body>
 
 <div id="siteWrapper" class="siteWrap">
@@ -65,7 +65,7 @@
                                 </a>
 
                                 <div class="next">
-                                    <a href="beacon.php"></a>
+                                    <a href="provence.php"></a>
                                 </div>
 
                             </nav>
@@ -215,6 +215,7 @@
 
                     </table>
                      <div class="refresh">
+
                          <a onclick="window.location.reload();" id="asBut" data-title="Сброс"></a>
                      </div>
                     <div class="count"><p>Счетчик ходов:
@@ -247,45 +248,35 @@
 
                 <div class="project-details" style="box-sizing:border-box;">
                     <div class="project-details-primary">
-                        <h2>Project Description</h2>
+                        <h2>Описание проекта</h2>
                         <div class="project-details-intro">
-                            <p>I needed a portfolio website in order to showcase my abilities and gain work as a web designer and developer.
-                                I take pride in everything I do and I knew that I had to take extra care with this project as it would help me line up more interesting work. </p>
+                            <p>Популярная головоломка, придуманная в 1878 году Ноем Чепмэном. Представляет собой набор одинаковых квадратных костяшек с нанесёнными числами, заключённых в квадратную коробку. Длина стороны коробки в четыре раза больше длины стороны костяшек для набора из 15 элементов, соответственно в коробке остаётся незаполненным одно квадратное поле. Цель игры — перемещая костяшки по коробке, добиться упорядочивания их по номерам, желательно сделав как можно меньше перемещений. </p>
                         </div>
-                        <p>I wanted to do something really simple and clean by using as much white space as I could get away with. A lot of websites at the moment are split into alternating coloured blocks where the sections are clearly visible. This was a look I knew I wanted to avoid as I wanted to stand out as much as possible. </p>
-                        <p> With this in mind I chose three colours initially - black, white and grey and began splitting content out using simple grey HR tags which would subtly lead the user to the next section. This is done without broadcasting that there is a section at all. I think what this does is introduce a flow to the content and also entices the user to scroll further.    </p>
-                        <p> I wanted to display a large image in the background that would really grab the users as they land on each page. The photo I chose for the home page header is of a past trip I had to Swan park in Buncrana. This makes the site personal straight away and this is clear to the users. To this effect I also added a section containing images of past experiences I have had with friends and family and on my own. These images give a little insight into my personality without going overboard. </p>
-                        <p> In order for me to benefit from the site I needed to be clear about what I am offering. Being a server-side developer for the most part of my career to date I wanted to use this as an advantage. The advantage of having someone who has a passion for web design but who is also proficient at coding. To highlight this I used two SVG graphics which are very visual and easy on the eye.  </p>
-                        <p> Whilst I built the pages out to display the relative information about me and my services I began to dabble with the idea of adding some server side code to the site. I decided to build a blog engine and I did this using PHP and a MYSQL backend database.
-                            In addition to this I built nested comment functionality to allow users to leave comments on individual blog pages. </p>
-                        <p> I did not have great PHP experience prior to this project and decided to use the language to improve my ability with it. In line with this I also chose not to use an HTML framework such as bootstrap. The reason for this is because I wanted to achieve a deeper understanding of responsive web design.  I also believe that these types of frameworks are bloated and contain a lot of things you don't need.  This project was completed with pure HTML, CSS, JQuery and PHP.</p>
-                        <p>
-                            I also developed an administrative backend for the site in order for me to be able to post new blog articles and approve/decline comments. You can see some screenshots of the admin backend below...
-                        </p>
+                        <p>Я написал эту игру без использования сторонних библиотек с помьщью одного лишь DOM API. Я считаю, что понимание работы чистого DOM API - это основа, после понимания которой можно переключаться фреймворки. </p>
+
                     </div>
                     <div class="project-details-secondary">
                         <div class="project-details-block project-details-sector">
-                            <h2>Project Type</h2>
-                            Personal Portfolio Creation
+                            <h2>Тип проекта</h2>
+                            Браузерная игра
                         </div>
                         <div class="project-details-block">
-                            <h2>What I did</h2>
+                            <h2>Что я написал</h2>
                             <ul>
-                                <li>Website Design</li>
-                                <li>Blog Engine</li>
-                                <li>Nested Comment System</li>
-                                <li>Responsive Website Design</li>
-                                <li>Administrative backend</li>
+                                <li>Внешний вид</li>
+                                <li>Движок игры</li>
+                                <li>Система подсчета ходов</li>
+                                <li>Интеграция с базой данных для публикации рекордсменов</li>
                             </ul>
 
                             <div class="textParagraph" style='text-align:left;padding-left:0; padding-right:0;padding-top:0'>
                                 <div style="outline: medium none;cursor:auto">
-                                    <h2>Technology used</h2>
-                                    <ul><li>HTML5, CSS3/SASS, JQuery, Ajax, PHP,Photoshop</li></ul>
+                                    <h2>Примененные технологии</h2>
+                                    <ul><li>HTML5, CSS3/SASS, Javascript</li></ul>
                                 </div>
                             </div>
 
-                            <a class="buttonBlockElement" href="index.php">Visit website</a>
+                            <a class="buttonBlockElement" href="15-article.php">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -293,231 +284,49 @@
 
 
                 <script>
-                    function fift() {
-                        var result = [];
-                        for (i = 1; i <= 15; i++) {
-                            result.push(i);
-                        }
-                        return result;
-                    }
 
-                    var fifteen = fift();
-                    var w = winName.value;
-                    var c = Number(counter.innerHTML);
-
-                    function getC() {
-                        return c;
-                    }
-
-                    //функция перемешивания номеров
-                    function shuffle(arr) {
-                        var newArr = [];
-                        arr.push(0);
-                        for (i = 0; i < 1; i++) {
-                            var rand = Math.ceil(Math.random() * 4);
-                            var idx = arr.indexOf(0);
-                            //сюда сохраняется число перед заменой на ноль
-                            var bufferR = arr[idx + 1];
-                            var bufferL = arr[idx - 1];
-                            var bufferD = arr[idx + 4];
-                            var bufferU = arr[idx - 4];
-
-                            //если ноль в углу, мешаем в другую сторону
-                            switch (rand) {
-                                case 1:
-                                    switch (arr.indexOf(0)) {
-                                        case 0:
-                                        case 4:
-                                        case 8:
-                                        case 12:
-                                            arr[idx] = bufferR;
-                                            arr[idx + 1] = 0;
-                                            break;
-                                        default:
-                                            arr[idx - 1] = 0;
-                                            arr[idx] = bufferL;
-                                            break;
-                                    }
-                                    break;
-                                case 2:
-                                    switch (idx) {
-                                        case 0:
-                                        case 1:
-                                        case 2:
-                                        case 3:
-                                            arr[idx] = bufferD;
-                                            arr[idx + 4] = 0;
-                                            break;
-                                        default:
-                                            arr[idx] = bufferU;
-                                            arr[idx - 4] = 0;
-                                            break;
-                                    }
-                                    break;
-                                case 3:
-                                    switch (idx) {
-                                        case 3:
-                                        case 7:
-                                        case 11:
-                                        case 15:
-                                            arr[idx - 1] = 0;
-                                            arr[idx] = bufferL;
-                                            arr[idx - 1] = 0;
-                                            break;
-                                        default:
-                                            arr[idx] = bufferR;
-                                            arr[idx + 1] = 0;
-                                            break;
-                                    }
-                                    break;
-                                case 4:
-                                    switch (idx) {
-                                        case 12:
-                                        case 13:
-                                        case 14:
-                                        case 15:
-                                            arr[idx] = bufferU;
-                                            arr[idx - 4] = 0;
-                                            break;
-                                        default:
-                                            arr[idx] = bufferD;
-                                            arr[idx + 4] = 0;
-                                            break;
-                                    }
-                                    break;
-                            }
-                        }
-                        arr[arr.indexOf(0)] = '';
-                        return arr;
-                    }
-
-                    var shuf = shuffle(fifteen);
-                    for (i = 0; i < shuf.length; i++) {
-                        document.getElementById(i).innerHTML = shuf[i];
-                    }
-
-                    function changeItem(event) {
-                        var neighbour = [], empty;
-
-                        //ищем соседа пустой клетки
-                        function findN() {
-                            for (i = 0; i < shuf.length; i++) {
-                                document.getElementById(i).innerHTML = shuf[i];
-                                if (shuf[i] === '') {
-                                    empty = document.getElementById(i);
-                                    if (document.getElementById((i - 1)) && i !== 4 && i != 8 && i != 12) {
-                                        neighbour.push(document.getElementById((i - 1)));
-                                    }
-                                    if (document.getElementById((i + 1)) && i !== 3 && i != 7 && i != 11) {
-                                        neighbour.push(document.getElementById((i + 1)));
-                                    }
-                                    if (document.getElementById((i - 4))) {
-                                        neighbour.push(document.getElementById((i - 4)));
-                                    }
-                                    if (document.getElementById((i + 4)))
-                                        neighbour.push(document.getElementById((i + 4)));
-                                }
-                            }
-                        }
-
-                        findN();
-                        var empId = Number(empty.id);
-                        var target = event.target;
-
-                        //добавляем функцию управления стрелками клавиатуры
-                        if (event.code === "ArrowUp" && empId < 12) {
-                            target = document.getElementById(empId + 4);
-                        } else if (event.code === "ArrowDown" && empId > 3) {
-                            target = document.getElementById(empId - 4);
-                        } else if (event.code === "ArrowLeft" && empId !== 3 && empId !== 7 && empId !== 11 && empId !== 15) {
-                            target = document.getElementById(empId + 1);
-                        } else if (event.code === "ArrowRight" && empId !== 0 && empId !== 4 && empId !== 8 && empId !== 12) {
-                            target = document.getElementById(empId - 1);
-                        }
-
-                        //если кликнули мышкой по соседу, выполняем замену
-                        if (neighbour.includes(target)) {
-                            var buffer = target.innerHTML;
-                            var idx = shuf.indexOf(Number(target.innerHTML));
-                            target.innerHTML = '';
-                            empty.innerHTML = buffer;
-                            var numb = [];
-                            for (i = 0; i < shuf.length; i++) {
-                                numb.push(Number(document.getElementById(i).innerHTML));
-                            }
-                            numb[numb.indexOf(0)] = '';
-                            shuf = numb;
-
-                            //добавим счетчик ходов
-                            var counter = document.getElementById('counter');
-                            c++;
-                            counter.innerHTML = c;
-                        }
-                        var newFift = fift();
-                        newFift.push('');
-                        if (shuf.toString() === newFift.toString()) {
-                            var newElement = document.createElement('div');
-                            newElement.innerHTML = "<h1>Вы выиграли!</h1><p>Общее количество ходов: " + c + "</p>";
-                            newElement.id = "win";
-                            newElement.style.zIndex = "999";
-                            var ch = document.getElementById("win");
-
-                            //этот код в старых браузерах работать не будет
-                            if (!ch) {
-                                document.body.appendChild(newElement);
-                                winModal.insertBefore(newElement, insertHere);
-                                winSub.value = c;
-                            }
-                            winModal.showModal();
-                            var insertHere = document.querySelector('.refresh');
-                            document.onclick = null;
-                        }
-                    }
-
-                    document.onclick = changeItem;
-                    document.onkeyup = changeItem;
                 </script>
 
                 <!-- конец описания проекта -->
 
                 <script>
-                    const docStyle = document.documentElement.style
-                    const aElem = document.querySelector('#asBut')
-                    const boundingClientRect = aElem.getBoundingClientRect()
+                    const docStyle = document.documentElement.style;
+                    const aElem = document.querySelector('#asBut');
+                    const boundingClientRect = aElem.getBoundingClientRect();
 
                     aElem.onmousemove = function(e) {
 
-                        const x = e.clientX - boundingClientRect.left
-                        const y = e.clientY - boundingClientRect.top
+                        const x = e.clientX - boundingClientRect.left;
+                        const y = e.clientY - boundingClientRect.top;
 
-                        const xc = boundingClientRect.width/2
-                        const yc = boundingClientRect.height/2
+                        const xc = boundingClientRect.width/2;
+                        const yc = boundingClientRect.height/2;
 
-                        const dx = x - xc
-                        const dy = y - yc
+                        const dx = x - xc;
+                        const dy = y - yc;
 
-                        docStyle.setProperty('--rx', `${ dy/-2.5 }deg`)
-                        docStyle.setProperty('--ry', `${ dx/3 }deg`)
+                        docStyle.setProperty('--rx', `${ dy/-15 }deg`);
+                        docStyle.setProperty('--ry', `${ dx/2 }deg`)
 
                     }
 
                     aElem.onmouseleave = function(e) {
 
-                        docStyle.setProperty('--ty', '0')
-                        docStyle.setProperty('--rx', '0')
-                        docStyle.setProperty('--ry', '0')
+                        docStyle.setProperty('--ty', '0');
+                        docStyle.setProperty('--rx', '0');
+                        docStyle.setProperty('--ry', '0');
 
                     }
 
                     aElem.onmousedown = function(e) {
 
-                        docStyle.setProperty('--tz', '-25px')
+                        docStyle.setProperty('--tz', '-25px');
 
                     }
 
                     document.body.onmouseup = function(e) {
 
-                        docStyle.setProperty('--tz', '-12px')
+                        docStyle.setProperty('--tz', '-12px');
 
                     }
                  </script>
