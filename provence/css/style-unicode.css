@@ -3285,3 +3285,9 @@ ul.wp-block-gallery.alignnone {
         margin-right: 0;
     }
 }
+
+#main-ban{
+    background: url('images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

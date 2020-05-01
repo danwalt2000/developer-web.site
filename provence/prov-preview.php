@@ -575,7 +575,7 @@
             </div>
 
         </header>
-        <div class="main-banner" data-parallax="scroll" data-image-src="https://provence12.ru/wp-content/uploads/2019/10/banner.jpg">
+        <div class="main-banner" id="main-ban" data-parallax="scroll">
             <div class="container">
                 <div class="mainbanner-wrap">
                     <h1>Салон штор &quot;Прованс&quot;</h1>
@@ -620,15 +620,15 @@
                 <img src="https://provence12.ru/wp-content/themes/uncode-lite\assets\images\venzel.png" class="color-venzel">
                 <div class="advantages-content-wrapper container clearfix">
                     <div class="list">
-                        <img src="https://provence12.ru/wp-content/themes/uncode-lite\assets\images\advantage1.png" class="advantage-image">
+                        <img src="css/images/advantage1.png" class="advantage-image">
                         <b>Ровный шов</b>
                         <br />Благодаря новому оборудованию </div>
                     <div class="list">
-                        <img src="https://provence12.ru/wp-content/themes/uncode-lite\assets\images\advantage2.png" class="advantage-image">
+                        <img src="css\images\advantage2.png" class="advantage-image">
                         <b>Дизайн</b>
                         <br /> проекта с учетом Вашего интерьера </div>
                     <div class="list">
-                        <img src="https://provence12.ru/wp-content/themes/uncode-lite\assets\images\advantage3.png" class="advantage-image">
+                        <img src="css\images\advantage3.png" class="advantage-image">
                         <b>Ассортимент</b> широкого диапазона цены и качества </div>
                 </div>
             </div>
@@ -646,22 +646,22 @@
                     </div>
                     <div class="list" style="background:url(https://provence12.ru/wp-content/uploads/2017/11/Tyl.jpg);">
                         <div class="list-button">
-                            <a href="#"></a>
+                            <a href="#">Тюль</a>
                         </div>
                     </div>
                     <div class="list" style="background:url(https://provence12.ru/wp-content/uploads/2017/11/Karniz.jpg);">
                         <div class="list-button">
-                            <a href="#"></a>
+                            <a href="#">Карнизы</a>
                         </div>
                     </div>
                     <div class="list" style="background:url(https://provence12.ru/wp-content/uploads/2017/11/Dekor.jpg);">
                         <div class="list-button">
-                            <a href="#"></a>
+                            <a href="#">Декор</a>
                         </div>
                     </div>
                     <div class="list" style="background:url(https://provence12.ru/wp-content/uploads/2017/11/Tkani.jpg);">
                         <div class="list-button">
-                            <a href="#"></a>
+                            <a href="#">Ткани</a>
                         </div>
                     </div>
                 </div>

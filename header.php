@@ -25,6 +25,10 @@ $curPage = substr($_SERVER['REQUEST_URI'], strrpos($_SERVER['REQUEST_URI'], "/")
                             </div>
 
                             <div class="index home">
+                                <a href="about.php"> Обо мне </a>
+                            </div>
+
+                            <div class="index home">
                                 <a href="portfolio.php"> Портфолио </a>
                             </div>
                             <div class="index home">

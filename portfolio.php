@@ -115,7 +115,7 @@
                                             <div>
                                                 <section class="portfolio-block">
                                                     <div class="portfolio-image-block">
-                                                        <a class="portfolio-image-block__link" href="My-port.php">
+                                                        <a class="portfolio-image-block__link" href="my-port.php">
                                                             <img src=" content/portfolio.jpg" alt="" class="projectImage" style="left:0;position: relative;top: 0;" />
                                                         </a>
                                                     </div>
@@ -124,7 +124,7 @@
                                                             <div class="portfolio-content-block__text">
                                                                 <div class="portfolio-content-block__sub-title">Вебсайт</div>
                                                                 <div class="portfolio-content-block__title">Портфолио</div>
-                                                                <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="My-port.php">Подробнее</a>
+                                                                <a class="portfolio-content-block__link" title="Портфолио веб-разработчика" href="my-port.php">Подробнее</a>
                                                             </div>
                                                         </div>
                                                     </div>

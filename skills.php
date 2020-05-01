@@ -13,7 +13,7 @@
 
                 <circle id="circle1" class="circleAnimate" cx="-40" cy="40" r="68" style="stroke-dashoffset:430px;" stroke-dasharray="430" stroke-width="8px" stroke="#16ADA1" fill="#2FD6CA" stroke-dashoffset="60" transform="translate(50,50) rotate(-90)" />
                 </g>
-                <text id="text1" x="63" y="100" fill="#fff" font-family="Verdana" font-size="28">95</text>
+                <text id="text1" x="63" y="100" fill="#fff" font-family="Verdana" font-size="28">100</text>
             </svg>
             <span class="skillSpan">HTML 5</span>
 
@@ -24,7 +24,7 @@
 
                 <circle id="circle2" class="circleAnimate" cx="-40" cy="40" r="68" style="stroke-dashoffset:430px;" stroke-dasharray="430" stroke-width="8px" stroke="#16ADA1" fill="#2FD6CA" stroke-dashoffset="60" transform="translate(50,50) rotate(-90)" />
                 </g>
-                <text id="text2" x="63" y="100" fill="#fff" font-family="Verdana" font-size="28">95</text>
+                <text id="text2" x="63" y="100" fill="#fff" font-family="Verdana" font-size="28">100</text>
             </svg>
             <span class="skillSpan">CSS 3</span>
         </div>

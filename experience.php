@@ -36,7 +36,28 @@
     </header>
 
     <!-- Начало раздела навыков -->
-<div style="width: 1000px; margin: 0 auto;">
+    <style>
+        @media (min-device-width: 500px) {
+            #skillswrapper {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        @media (min-device-width: 1000px) {
+                #skillswrapper {
+                    width: 1000px;
+                    margin: 0 auto;
+                }
+        }
+            @media (min-device-width: 1300px) {
+              #skillswrapper{
+                width: 1000px;
+                margin: 0 auto;
+            }
+        }
+
+    </style>
+<div id="skillswrapper">
     <?php include "./skills.php"; ?>
 </div>
     <!-- Конец раздела навыков -->
