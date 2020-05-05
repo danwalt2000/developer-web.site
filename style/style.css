@@ -5127,3 +5127,13 @@ Scroll indicator css .scrollIndicator::after {
     font-style: italic;
     padding-top: 40px;
 }
+
+.classical__href{
+	color: black;
+	text-transform: uppercase;
+}
+.classical__href:hover{
+	color: blue;
+	text-decoration: underline;
+
+}

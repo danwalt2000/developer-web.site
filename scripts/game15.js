@@ -1,7 +1,7 @@
 
 function fift(){
     const result = [];
-    for (i = 1; i <= 15; i++){
+    for (let i = 1; i <= 15; i++){
         result.push(i);
     }
     return result;
@@ -101,7 +101,7 @@ for(i = 0; i < shuf.length; i++){
     document.getElementById(i).innerHTML = shuf[i];
 }
 function changeItem(event){
-    var neighbour = [], empty;
+    let neighbour = [], empty;
 
     //ищем соседа пустой клетки
     function findN(){
@@ -109,10 +109,10 @@ function changeItem(event){
             document.getElementById(i).innerHTML = shuf[i];
             if(shuf[i] === ''){
                 empty = document.getElementById(i);
-                if(document.getElementById((i - 1)) && i !== 4 && i != 8 && i != 12){
+                if(document.getElementById((i - 1)) && i !== 4 && i !== 8 && i !== 12){
                     neighbour.push(document.getElementById((i - 1)));
                 }
-                if (document.getElementById((i + 1)) && i !== 3 && i != 7 && i != 11){
+                if (document.getElementById((i + 1)) && i !== 3 && i !== 7 && i !== 11){
                     neighbour.push(document.getElementById((i + 1)));
                 }
                 if (document.getElementById((i - 4))){
@@ -124,8 +124,8 @@ function changeItem(event){
         }
     }
     findN();
-    var empId = Number(empty.id);
-    var target = event.target;
+    let empId = Number(empty.id);
+    let target = event.target;
 
     //добавляем функцию управления стрелками клавиатуры
     if(event.code === "ArrowUp" && empId < 12){
@@ -140,13 +140,13 @@ function changeItem(event){
 
     //если кликнули мышкой по соседу, выполняем замену
     if(neighbour.includes(target)){
-        var buffer = target.innerHTML;
-        var idx = shuf.indexOf(Number(target.innerHTML));
+        let buffer = target.innerHTML;
+        let idx = shuf.indexOf(Number(target.innerHTML));
         target.innerHTML = '';
         empty.innerHTML = buffer;
-        var numb = [];
-        for(i = 0; i < shuf.length; i++){
-            numb.push(Number(document.getElementById(i).innerHTML));
+        let numb = [];
+        for(let i = 0; i < shuf.length; i++){
+            numb.push(Number(document.getElementById(i.toString()).innerHTML));
         }
         numb[numb.indexOf(0)] = '';
         shuf = numb;
@@ -154,13 +154,13 @@ function changeItem(event){
         //добавим счетчик ходов
         var counter = document.getElementById('counter');
         c++;
-        counter.innerHTML = c;
+        counter.innerHTML = c.toString();
     }
-    var newFift = fift();
+    let newFift = fift();
     newFift.push('');
     if(shuf.toString() === newFift.toString()){
         var newElement = document.createElement('div');
-        newElement.innerHTML = "<h1>Вы выиграли!</h1><p>Общее количество ходов: " + c + "</>";
+        newElement.innerHTML = `<h1>Вы выиграли!</h1><p>Общее количество ходов: ${c}</>`;
         newElement.id = "win";
         var ch = document.getElementById("win");
 
