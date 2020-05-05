@@ -84,10 +84,7 @@
     }
 
     .sheep {
-        position: absolute;
-        height: 35px;
-        width: 35px;
-        top: 490px;
+        position: relative;
     }
 
     #sheep_0 {
@@ -114,7 +111,7 @@
     }
 
     .rules, #movingHeadline {
-        position: absolute;
+        position: relative;
     }
 
     .rules {
@@ -131,29 +128,19 @@
 </style>
 
                 <div class="MyMultiDeviceImages">
-
-                   <!-- <img id="wolf" width="15" height="15" src="Game_Sheeps/images/wolf.png"/> -->
-                    <img class="sheep" id="sheep_0" width="15" height="15" src="Game_Sheeps/images/sheep.png"/>
-                    <img class="sheep" id="sheep_1" width="15" height="15" src="Game_Sheeps/images/sheep.png"/>
-                    <img class="sheep" id="sheep_2" width="15" height="15" src="Game_Sheeps/images/sheep.png"/>
-                    <img class="sheep" id="sheep_3" width="15" height="15" src="Game_Sheeps/images/sheep.png"/>
-                   <!-- <div class="rules"><h1>Правила игры</h1>
+<div style="display: none">
+                    <img id="wolf" width="15" height="15" src="Game_Sheeps/images/wolf.png" />
+                    <img class="sheep" id="sheep_0" width="15" height="15" src="Game_Sheeps/images/sheep.png" />
+                    <img class="sheep" id="sheep_1" width="15" height="15" src="Game_Sheeps/images/sheep.png" />
+                    <img class="sheep" id="sheep_2" width="15" height="15" src="Game_Sheeps/images/sheep.png" />
+                    <img class="sheep" id="sheep_3" width="15" height="15" src="Game_Sheeps/images/sheep.png" />
+</div>
+                   <div class="rules"><h1>Правила игры</h1>
                         <p>Волку нужно добраться до нижнего поля.</p>
                         <p>Овцам нужно окружить волка, то есть, сделать так, чтобы у волка не осталось ходов.</p>
                         <button class="refresh" onclick="window.location.reload();">Сброс</button>
-                    </div>-->
-
+                    </div>
                     <canvas id='example'>Обновите браузер</canvas>
-<script>
-
-    var wolf = document.createElement("img");
-    wolf.id = "wolf";
-    wolf.setAttribute('src', "Game_Sheeps/images/wolf.png");
-</script>
-
-
-
-
 
 
 
@@ -205,7 +192,7 @@
                 </script>
 
                 <!-- конец описания проекта -->
-
+                <script src="scripts/jQuery.js" type="text/javascript"></script>
                 <script src="Game_Sheeps/scripts/canvas.js" type="text/javascript"></script>
                 <script src="Game_Sheeps/scripts/main.js" type="text/javascript"></script>
     </main>

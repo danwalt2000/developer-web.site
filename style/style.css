@@ -1,4 +1,25 @@
-
+.codeInject{
+	background: #2b2b2b;
+	color: white;
+}
+.tag{
+	color: #ae2824;
+}
+.cl{
+	color: #a6e22b;
+}
+.val{
+	color: #e7db74;
+}
+.false{
+	color: #ac80ff;
+}
+.func{
+	color: #67d8ef;
+}
+.greyText{
+	color: #61705d;
+}
 .grey-area {
     width: 100%;
     padding: 60px 0;
@@ -68,57 +89,57 @@ p {
 
 @font-face {
     font-family: garamond;
-    src: url(fonts/AdobeGaramondProRegular.ttf)
+    src: url('fonts/AdobeGaramondProRegular.ttf')
 }
 
 @font-face {
     font-family: nevis;
-    src: url(fonts/nevis.ttf)
+    src: url('fonts/nevis.ttf')
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(fonts/Montserrat-Regular.ttf)
+    src: url('fonts/Montserrat-Regular.ttf')
 }
 
 @font-face {
     font-family: Kievit;
-    src: url(fonts/kievit-regular.otf)
+    src: url('fonts/kievit-regular.otf')
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(fonts/Roboto-Regular.ttf)
+    src: url('fonts/Roboto-Regular.ttf')
 }
 
 @font-face {
     font-family: Roboto-Italic;
-    src: url(fonts/Roboto-Italic.ttf)
+    src: url('fonts/Roboto-Italic.ttf')
 }
 
 @font-face {
     font-family: Merriweather;
-    src: url(fonts/Merriweather-Regular.ttf)
+    src: url('fonts/Merriweather-Regular.ttf')
 }
 
 @font-face {
     font-family: ProximaSansRegular;
-    src: url(fonts/ProximaSansRegular.ttf)
+    src: url('fonts/ProximaSansRegular.ttf')
 }
 
 @font-face {
     font-family: MYRIADPRO;
-    src: url(fonts/MYRIADPRO-REGULAR.otf)
+    src: url('fonts/MYRIADPRO-REGULAR.otf')
 }
 
 @font-face {
     font-family: pier;
-    src: url(fonts/pier-regular.otf)
+    src: url('fonts/pier-regular.otf')
 }
 
 @font-face {
     font-family: Lato;
-    src: url(fonts/Lato-Regular.ttf)
+    src: url('fonts/Lato-Regular.ttf')
 }
 
 body {

@@ -1,3 +1,4 @@
+
 var sheeps = document.getElementsByClassName("sheep");
 
 $(document).ready(function () {
@@ -7,9 +8,9 @@ $(document).ready(function () {
     //функция добавляет варианты хода
     function addElem(posX, posY, id) {
         if (posX > 0) {
-            $("body").append("<div class='move' id=" + id + "><style>#" + id + "{position: absolute; top: " + (newY - posY) + "px; left: " + (newX + posX) + "px; }</style></div>");
+            $("body").append("<div class='move' id=" + id + "><style>#" + id + "{position: relative; top: " + (newY - posY) + "px; left: " + (newX + posX) + "px; }</style></div>");
         } else {
-            $("body").append("<div class='move' id=" + id + "><style>#" + id + "{position: absolute; top: " + (newY - posY) + "px; left: " + (newX + posX) + "px; }</style></div>");
+            $("body").append("<div class='move' id=" + id + "><style>#" + id + "{position: relative; top: " + (newY - posY) + "px; left: " + (newX + posX) + "px; }</style></div>");
         }
     }
 

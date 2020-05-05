@@ -1,12 +1,12 @@
 
 function fift(){
-    var result = [];
+    const result = [];
     for (i = 1; i <= 15; i++){
         result.push(i);
     }
     return result;
 }
-var fifteen = fift();
+const fifteen = fift();
 var w = winName.value;
 var c = Number(counter.innerHTML);
 function getC(){
@@ -15,10 +15,10 @@ function getC(){
 
 //функция перемешивания номеров
 function shuffle(arr){
-    var newArr = [];
+    const newArr = [];
     arr.push(0);
     for(i = 0; i < 2000; i++){
-        var rand = Math.ceil(Math.random()* 4);
+        let rand = Math.ceil(Math.random()* 4);
         var idx = arr.indexOf(0);
         //сюда сохраняется число перед заменой на ноль
         var bufferR = arr[idx + 1];
@@ -91,10 +91,12 @@ function shuffle(arr){
                 break;
         }
     }
+    //удаляем ноль из массива и заменяем его пустой строкой
     arr[arr.indexOf(0)] = '';
     return arr;
 }
-var shuf = shuffle(fifteen);
+//наполняем таблицу полученными значениями
+let shuf = shuffle(fifteen);
 for(i = 0; i < shuf.length; i++){
     document.getElementById(i).innerHTML = shuf[i];
 }
