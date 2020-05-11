@@ -128,10 +128,11 @@ function changeItem(event){
     let target = event.target;
 
     //добавляем функцию управления стрелками клавиатуры
+
     if(event.code === "ArrowUp" && empId < 12){
         target = document.getElementById(empId + 4);
     } else if(event.code === "ArrowDown" && empId > 3){
-        target = document.getElementById(empId - 4);
+        target = document.getElementById(empId - 4);                
     } else if(event.code === "ArrowLeft" && empId !== 3 && empId !== 7 && empId !== 11 && empId !== 15){
         target = document.getElementById(empId + 1);
     } else if(event.code === "ArrowRight" && empId !== 0 && empId !== 4 && empId !== 8 && empId !== 12){
@@ -144,6 +145,7 @@ function changeItem(event){
         let idx = shuf.indexOf(Number(target.innerHTML));
         target.innerHTML = '';
         empty.innerHTML = buffer;
+
         let numb = [];
         for(let i = 0; i < shuf.length; i++){
             numb.push(Number(document.getElementById(i.toString()).innerHTML));

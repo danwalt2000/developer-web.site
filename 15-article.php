@@ -286,7 +286,7 @@ arr.<strong class="func">push</strong>(0);
         все остальные элементы приложения должны оставаться неактивными.</p>
     <p>После обнаружения, соседи пустой ячейки собираются массив neighbour. Этот массив будет меняться с каждым ходом - в нем собраны элементы страницы в виде объектов.</p>
     <p>Поскольку не всем людям удобно играть постоянно кликая мышкой, добавим возможность управлять кнопками клавиатуры.
-        Здесь все просто: определяем код нажатой клавиши, и, если такой ход разрашен, указываем соответствующую ячейку как цель, на которой сработало событие.</p>
+        Здесь все просто: определяем код нажатой клавиши, и, если такой ход разрешен, указываем соответствующую ячейку как цель, на которой сработало событие.</p>
 
     <div class="codeInject">
         <pre><code><strong class="greyText">//добавляем функцию управления стрелками клавиатуры</strong>
@@ -305,7 +305,7 @@ arr.<strong class="func">push</strong>(0);
         <pre><code><strong class="greyText">//если кликнули мышкой по соседу, выполняем замену</strong>
     <strong class="tag">if</strong>(neighbour.<strong class="func">includes</strong>(target)){
         <strong class="func">let</strong> buffer = target.innerHTML;
-            <strong class="func">let</strong> idx = shuf.<strong class="func">indexOf</strong>(<strong class="func">Number</strong>(target.innerHTML));
+        <strong class="func">let</strong> idx = shuf.<strong class="func">indexOf</strong>(<strong class="func">Number</strong>(target.innerHTML));
         target.innerHTML = '';
         empty.innerHTML = buffer;
         <strong class="func">let</strong> numb = [];

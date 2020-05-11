@@ -172,18 +172,18 @@
             </g>
             <text id="text7" x="70" y="100" fill="#fff" font-family="Verdana" font-size="28">60</text>
         </svg>
-        <span class="skillSpan">VueJS</span>
+        <span class="skillSpan">GULP</span>
 
     </div>
     <div class=" top">
 
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="circleSvg" height="180" width="180">
 
-            <circle id="circle8" class="circleAnimate" cx="-40" cy="40" r="68" style="stroke-dashoffset:430px;" stroke-dasharray="" stroke-width="8px" stroke="#333333" fill="#595959" stroke-dashoffset="60" transform="translate(50,50) rotate(-90)" />
+            <circle id="circle8" class="circleAnimate" cx="-40" cy="40" r="68" style="stroke-dashoffset:430px;" stroke-dasharray="430" stroke-width="8px" stroke="#333333" fill="#595959" stroke-dashoffset="60" transform="translate(50,50) rotate(-90)" />
             </g>
             <text id="text8" x="70" y="100" fill="#fff" font-family="Verdana" font-size="28">80</text>
         </svg>
-        <span class="skillSpan">GULP</span>
+        <span class="skillSpan">VueJS</span>
     </div>
     <div class=" top">
 
